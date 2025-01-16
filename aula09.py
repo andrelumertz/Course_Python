@@ -2,12 +2,10 @@
 
 #if,elif,else
 
+first_value = input('Digite um valor: ')
+second_value = input('Digite outro valor: ')
 
-
-primeiro_valor = input('Digite um valor: ')
-segundo_valor = input('Digite outro valor: ')
-
-if primeiro_valor >= segundo_valor:
-    print(f'{primeiro_valor=} é maior ou igual ao {segundo_valor=}')
+if first_value >= second_value:
+    print(f'{first_value=} é maior ou igual ao {second_value=}')
 else:
-    print(f'{segundo_valor=} é maior que {primeiro_valor=}')
+    print(f'{second_value=} é maior que {first_value=}')
